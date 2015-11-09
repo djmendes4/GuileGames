@@ -1,0 +1,26 @@
+*, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: rgba(12, 22, 52, 1.0);
+}
+
+svg {
+	position: absolute;
+}
+
+#GuileGames {
+	width: 100%;
+	height: 100%;
+}
+
+svg#gameScreen {
+	width: 100%;
+	height: 100%;
+}
+
+svg#gameScreen > g.layer0 rect {
+	width: 100%;
+	height: 100%;
+	fill: rgba(12, 22, 52, 1.0);
+}

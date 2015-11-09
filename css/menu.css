@@ -1,0 +1,8 @@
+svg#menuScreen > g.background rect {
+	fill: rgba(0, 0, 0, 0.4);
+}
+
+svg#menuScreen > g.background line {
+	stroke: black;
+	stroke-width: 6px;
+}

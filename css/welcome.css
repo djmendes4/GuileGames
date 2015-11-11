@@ -1,0 +1,20 @@
+svg#welcomeScreen > g.background rect:first-child {
+	fill: rgba(0, 0, 0, 0.0);
+}
+
+svg#welcomeScreen > g.object rect:first-child {
+	fill: rgba(0, 0, 0, 0.0);
+}
+
+svg#welcomeScreen > g.object rect:not(:first-child) {
+	stroke: black;
+	stroke-width: 1px;
+	overflow: hidden;
+}
+
+/* Blue Tones */
+.t0 { fill: rgba(12, 22, 52, 1.0) }
+.t1 { fill: rgba(46, 58, 97, 1.0) }
+.t2 { fill: rgba(27, 39, 76, 1.0) }
+.t3 { fill: rgba(3, 10, 31, 1.0) }
+.t4 { fill: rgba(1, 4, 13, 1.0) }
